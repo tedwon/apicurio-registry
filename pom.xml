@@ -207,7 +207,7 @@
     <jackson-dataformat-yaml.version>2.15.2</jackson-dataformat-yaml.version>
 
     <!-- OpenAPI -->
-    <openapi-diff.version>2.0.1</openapi-diff.version>
+    <openapi-diff.version>2.1.2</openapi-diff.version>
     <!-- We need to manually include the version because of dependency issues with snakeyaml -->
     <swagger-parser-v3.version>2.1.25</swagger-parser-v3.version>
 
