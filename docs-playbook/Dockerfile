@@ -1,7 +1,7 @@
 # docker build -t="apicurio/apicurio-docs-builder" --rm .
 # winpty docker run '-v=C:\Users\ewittman\git\apicurio\apicurio.github.io\registry\docs:/antora-dist' -it apicurio/apicurio-docs-builder
 # winpty docker run '-v=C:\Users\ewittman\git\apicurio\apicurio.github.io\registry\docs:/antora-dist' --env GIT_REPO=https://github.com/EricWittmann/apicurio-registry.git --env GIT_BRANCH=antora -it apicurio/apicurio-docs-builder
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 ENV BASE_DIR=/repository/docs-playbook
 ENV PLAYBOOK=docs-playbook.yml
